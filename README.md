@@ -13,7 +13,7 @@ Summer 2021 & Spring 2022
 - Utilized Google Firebase to serve as a cloud platform
 - Created a PowerBI dashboard to assist care in the NICU
 - Wrote documentation for the app as well as flow diagrams
-- Lead presentations to various organizations showing the capabilties of the application
+- Lead presentations to various organizations showing the capabilities of the application
 
 ### Software Engineer Co-op - Medpace Inc
 
