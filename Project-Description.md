@@ -1,10 +1,17 @@
-# Team Name
+# Project Description
+
+## Team Name
+
+Global Elite
 
 ## Team Members
+Christian France - Computer Science - franceci@mail.uc.edu
 
-- Christian France (franceci@mail.uc.edu) - Computer Science
-- Christian Galang (galangnv@mail.uc.edu) - Computer Science
-- Aiden Huff (huffa6@mail.uc.edu) - Electrical Engineering
-- Tyler Swick (swicktm@mail.uc.edu) - Computer Engineering
+Tyler Swick - Computer Engineering - swicktm@mail.uc.edu
+
+Christian Galang - Computer Science - galangnv@mail.uc.edu
+
+Aiden Huff - Electrical Engineering - huffa6@mail.uc.edu
 
 ## Project Topic Area
+Fitness app to assist users in the area of muscle soreness.
