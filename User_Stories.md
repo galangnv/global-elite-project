@@ -6,7 +6,7 @@ User stories are sentences (in everyday language) from the point of view of the 
 
 "As a person in role, I want goal or desire so that I have some tangible benefit.“ You will need to identify specific a) person role,  b) goal, and c) benefit for each.
 
-## Our User Story
+## Our User Stories
 
 1. " As an amateaur athlete I frequently experience soreness. I have trouble diagnosing and treating these discomforts on my own, and desire an app to aide this."
 2. " As a High School runner in the off season I don't have my coach to answer questions and I want a platform that can provide me stretches and excercise to aide my injuries."
