@@ -33,7 +33,7 @@ The project aims to develop an innovative mobile application that provides users
 ### Effort Matrix
 ![timeline](https://github.com/galangnv/global-elite-project/blob/main/EffortMatrix.png?raw=true)
 
-## 5. ABET Concerns Essay
+## 5. [ABET Concerns Essay](https://github.com/galangnv/global-elite-project/blob/main/Constraints-Essay.md)
 
 ## 6. PPT Slideshow
 Slideshow can be found [here.](https://docs.google.com/presentation/d/1Ery-AW5KeHOtms47qSYpNGro5ID6V0c0Wl3m4-HWQgg/edit#slide=id.p)
