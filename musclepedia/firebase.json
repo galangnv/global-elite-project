@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "musclepedia",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

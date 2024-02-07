@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "musclepedia-daa3a": {
+      "hosting": {
+        "musclepedia": [
+          "musclepedia-daa3a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "musclepedia-daa3a"
+  }
+}
