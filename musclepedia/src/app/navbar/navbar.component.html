@@ -4,9 +4,14 @@
             <span class="title">Musclepedia</span>
             <span class="example-spacer"></span>
             <div class="nav-buttons">
-            <a mat-button routerLink="/home">Home</a>
-            <a mat-button routerLink="/about">About</a>
-            <button mat-button>Login</button>
+                <a mat-button routerLink="/home">Home</a>
+                <a mat-button routerLink="/about">About</a>
+
+                @if (isAuthenticated) {
+                    <button mat-button (click)="logout()">logout</button>
+                } @else {
+                    <button mat-button routerLink="/login">Login</button>
+                }
             </div>
         </mat-toolbar-row>
     </mat-toolbar>
