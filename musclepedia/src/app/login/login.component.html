@@ -1,0 +1,20 @@
+<div class="container">
+    <mat-card>
+        <mat-card-content>
+            <form class="inputs" #loginForm="ngForm" (ngSubmit)="login()">
+                <mat-form-field appearance="outline">
+                    <mat-label>Username</mat-label>
+                    <input matInput [ngModel]="username" (ngModelChange)="username = $event" name="username" placeholder="geoff@gmail.com" required>
+                </mat-form-field>
+        
+                <mat-form-field appearance="outline">
+                    <mat-label>Password</mat-label>
+                    <input matInput [ngModel]="password" (ngModelChange)="password = $event" name="password" placeholder="123ABC$#@" type="password" required>
+                </mat-form-field>
+
+                <button mat-raised-button class="login-button">Login</button>
+            </form>
+        </mat-card-content>
+        
+    </mat-card>
+</div>
