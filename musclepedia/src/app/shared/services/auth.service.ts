@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
 import { User } from './user';
-import { Auth, signInWithEmailAndPassword } from '@angular/fire/auth';
+import { Auth, signInWithEmailAndPassword, createUserWithEmailAndPassword } from '@angular/fire/auth';
 import { defer, Observable, BehaviorSubject } from 'rxjs';
 
 @Injectable({
@@ -23,6 +23,11 @@ export class AuthService {
 
   loginToFirebase(username: string, password: string) {
     const res = () => signInWithEmailAndPassword(this.auth, username, password)
+    return defer(res);
+  }
+
+  registerFirebase(username: string, password: string) {
+    const res = () => createUserWithEmailAndPassword(this.auth, username, password)
     return defer(res);
   }
 
