@@ -1,7 +1,7 @@
 <div class="container">
     <mat-card>
         <mat-card-content>
-            <form class="inputs" #loginForm="ngForm" (ngSubmit)="login()">
+            <form class="inputs" #loginForm="ngForm" (ngSubmit)="register()">
                 <mat-form-field appearance="outline">
                     <mat-label>Email</mat-label>
                     <input matInput [ngModel]="username" (ngModelChange)="username = $event" name="username" placeholder="geoff@gmail.com" required>
@@ -12,9 +12,14 @@
                     <input matInput [ngModel]="password" (ngModelChange)="password = $event" name="password" placeholder="123ABC$#@" type="password" required>
                 </mat-form-field>
 
-                <button mat-raised-button class="login-button">Login</button>
+                <mat-form-field appearance="outline">
+                    <mat-label>Confirm Password</mat-label>
+                    <input matInput [ngModel]="password2" (ngModelChange)="password2 = $event" name="password2" placeholder="123ABC$#@" type="password" required>
+                </mat-form-field>
+
+                <button mat-raised-button class="register-button">Register</button>
             </form>
-            <a href="/register">Don't have an account?</a>
+            <a href="/login">Already have an account?</a>
         </mat-card-content>
         
     </mat-card>
