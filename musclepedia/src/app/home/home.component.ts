@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+
+declare const display3DModel: () => void;
 
 @Component({
   selector: 'app-home',
@@ -16,6 +18,10 @@ import {MatCardModule} from '@angular/material/card';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
+  constructor() { }
 
+  ngOnInit(): void {
+    display3DModel();
+  }
 }
