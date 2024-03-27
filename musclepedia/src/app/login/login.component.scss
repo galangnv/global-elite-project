@@ -2,13 +2,15 @@ mat-card {
     max-width: 400px;
     margin: 2em auto;
     text-align: center;
+    background-color: #f6f6e9;
 }
   
 mat-form-field {
     display: block;
+    background-color: #f6f6e9;
 }
 
 .login-button {
-    color: #ffffff;
-    background-color: #003459;
+    background-color: #9fc696;
+    color: #f6f6e9;
 }

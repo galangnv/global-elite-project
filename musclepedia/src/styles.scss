@@ -2,3 +2,41 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// Define color variables
+$primary-color: #9fc696; // Green
+$secondary-color: #f6f6e9; // Light Tan
+$accent-color: #fadde1; // Pastel Pink
+$header-color: #355e3b; // Dark Green
+$success-color: #28a745; // Green
+$danger-color: #dc3545; // Red
+$info-color: #17a2b8; // Cyan
+
+body {
+  background-color: $primary-color;
+}
+
+.header {
+  background-color: $header-color;
+  color: $secondary-color;
+  padding: 10px;
+}
+
+.button {
+  background-color: $accent-color;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+  &:hover {
+    background-color: darken($accent-color, 10%);
+  }
+}
+
+.alert {
+  background-color: $danger-color;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}

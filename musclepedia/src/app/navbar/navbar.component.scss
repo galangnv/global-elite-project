@@ -1,10 +1,18 @@
+.mat-toolbar {
+    /* Styles for the entire mat-toolbar */
+}
+
+.toolbar-row {
+    background-color: #355e3b; /* Desired color for the toolbar row */
+    color: #f6f6e9; /* Text color for the toolbar row */
+}
 .title {
-    color: #003459; 
+    color: #f6f6e9; 
 }
 
 .nav-buttons {
     button {
-        color: #003459;
+        color: #f6f6e9;
     }
 }
 
