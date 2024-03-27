@@ -59,14 +59,8 @@ export function display3DModel() {
 
     //Render the scene
     function animate() {
-    requestAnimationFrame(animate);
-
-    //Make the body move
-    if (object && objToRender === "body") {
-        object.rotation.y = -3 + mouseX / window.innerWidth * 3;
-        object.rotation.x = -1.2 + mouseY * 2.5 / window.innerHeight;
-    }
-    renderer.render(scene, camera);
+        requestAnimationFrame(animate);
+        renderer.render(scene, camera);
     }
 
     //Add a listener to the window, so we can resize the window and the camera

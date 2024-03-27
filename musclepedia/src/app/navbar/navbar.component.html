@@ -1,14 +1,14 @@
 <div class="container">
     <mat-toolbar>
-        <mat-toolbar-row>
+        <mat-toolbar-row class="toolbar-row">
             <span class="title">Musclepedia</span>
             <span class="example-spacer"></span>
             <div class="nav-buttons">
-                <a mat-button routerLink="/home">Home</a>
-                <a mat-button routerLink="/about">About</a>
+                <button mat-button routerLink="/home">Home</button>
+                <button mat-button routerLink="/about">About</button>
 
                 @if (isAuthenticated) {
-                    <button mat-button (click)="logout()">logout</button>
+                    <button mat-button (click)="logout()">Logout</button>
                 } @else {
                     <button mat-button routerLink="/login">Login</button>
                 }
