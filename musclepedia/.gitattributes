@@ -1,0 +1,2 @@
+body_model.glb filter=lfs diff=lfs merge=lfs -text
+src/app/body_model/body_model.glb filter=lfs diff=lfs merge=lfs -text
