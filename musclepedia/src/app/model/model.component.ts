@@ -2,6 +2,7 @@ import { Component, OnInit, AfterViewInit } from '@angular/core';
 import * as THREE from "three";
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
+import { getStorage, ref, getDownloadURL } from "firebase/storage";
 
 @Component({
   selector: 'app-model',
@@ -11,10 +12,14 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
   styleUrl: './model.component.scss'
 })
 export class ModelComponent implements AfterViewInit {
-
+  storage = getStorage();
+  gsRef = ref(this.storage, 'gs://musclepedia-daa3a.appspot.com/myology.glb');
+  blob = null;
 
   constructor() {
+
   }
+
   ngAfterViewInit(): void {
     // Initialize Renderer
     const canvas: HTMLCanvasElement = <HTMLCanvasElement>document.querySelector("#can");
