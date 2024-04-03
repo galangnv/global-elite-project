@@ -3,6 +3,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { ModelComponent } from '../model/model.component';
 
 declare const display3DModel: () => void;
 
@@ -13,7 +14,8 @@ declare const display3DModel: () => void;
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatCardModule
+    MatCardModule,
+    ModelComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
@@ -22,6 +24,5 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    display3DModel();
   }
 }
