@@ -1,0 +1,2 @@
+src/app/body_model/myology.glb filter=lfs diff=lfs merge=lfs -text
+myology.glb filter=lfs diff=lfs merge=lfs -text
