@@ -5,4 +5,40 @@
         <!-- Container for the 3D model -->
         <app-model></app-model>
     </main>
+
+    <button mat-button (click)="ankle.togglePanel()">Ankle</button>
+    <app-ankle #ankle></app-ankle>
+
+    <button mat-button (click)="gastrocnemius_soleus.togglePanel()">Gastrocnemius and Soleus</button>
+    <app-gastrocnemius-soleus #gastrocnemius_soleus></app-gastrocnemius-soleus>
+
+    <button mat-button (click)="knee.togglePanel()">Knee</button>
+    <app-knee #knee></app-knee>
+
+    <button mat-button (click)="it_band.togglePanel()">IT Band</button>
+    <app-it-band #it_band></app-it-band>
+
+    <button mat-button (click)="hamstrings.togglePanel()">Hamstrings</button>
+    <app-hamstrings #hamstrings></app-hamstrings>
+
+    <button mat-button (click)="quadriceps.togglePanel()">Quadriceps</button>
+    <app-quadriceps #quadriceps></app-quadriceps>
+
+    <button mat-button (click)="hip_flexors.togglePanel()">Hip Flexors</button>
+    <app-hip-flexors #hip_flexors></app-hip-flexors>
+
+    <button mat-button (click)="erector_spinae.togglePanel()">Erector Spinae</button>
+    <app-erector-spinae #erector_spinae></app-erector-spinae>
+
+    <button mat-button (click)="pectorals.togglePanel()">Pectorals</button>
+    <app-pectorals #pectorals></app-pectorals>
+
+    <button mat-button (click)="shoulders.togglePanel()">Shoulders</button>
+    <app-shoulders #shoulders></app-shoulders>
+
+    <button mat-button (click)="neck.togglePanel()">Neck</button>
+    <app-neck #neck></app-neck>
+
+    <button mat-button (click)="abdominal.togglePanel()">Abdominal Muscles</button>
+    <app-abdominal #abdominal></app-abdominal>
 </div>
