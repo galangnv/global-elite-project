@@ -8,8 +8,6 @@ import { defer, Observable, BehaviorSubject } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  userData: User = <User>{};
-
   currentUser = this.auth.currentUser;
   private authStatusSub = new BehaviorSubject(this.currentUser);
   currentAuthStatus = this.authStatusSub.asObservable();

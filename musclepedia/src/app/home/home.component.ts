@@ -3,6 +3,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { ModelComponent } from '../model/model.component';
 import { AnkleComponent } from '../body_content/ankle/ankle.component';
 import { GastrocnemiusSoleusComponent } from '../body_content/gastrocnemius_soleus/gastrocnemius_soleus.component';
 import { KneeComponent } from '../body_content/knee/knee.component';
@@ -26,6 +27,7 @@ declare const display3DModel: () => void;
     MatIconModule,
     MatButtonModule,
     MatCardModule,
+    ModelComponent,
     AnkleComponent,
     GastrocnemiusSoleusComponent,
     KneeComponent,
@@ -46,6 +48,5 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    display3DModel();
   }
 }

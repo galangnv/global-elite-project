@@ -3,7 +3,7 @@
 
     <main>
         <!-- Container for the 3D model -->
-        <div id="container3D"></div>
+        <app-model></app-model>
     </main>
 
     <button mat-button (click)="ankle.togglePanel()">Ankle</button>
@@ -41,6 +41,4 @@
 
     <button mat-button (click)="abdominal.togglePanel()">Abdominal Muscles</button>
     <app-abdominal #abdominal></app-abdominal>
-
-    <script type="module" src="home.component.js"></script>
 </div>
