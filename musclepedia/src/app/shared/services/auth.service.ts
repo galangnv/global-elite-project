@@ -1,8 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Router } from '@angular/router';
-import { User } from './user';
 import { Auth, signInWithEmailAndPassword } from '@angular/fire/auth';
-import { defer, Observable, BehaviorSubject } from 'rxjs';
+import { defer, BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -37,7 +36,7 @@ export class AuthService {
 
   SignOut() {
     return this.auth.signOut().then(() => {
-      localStorage.removeItem('user');
+      localStorage.clear();
       this.router.navigate(['login']);
     })
   }
