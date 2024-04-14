@@ -19,7 +19,9 @@ Welcome to Musclepedia! This user guide will walk you through the various featur
 - [3.2 Discovering Links to Helpful Websites](#32---discovering-links-to-helpful-websites)
 - [3.3 Following Practical Recommendations](#33---following-practical-recommendations)
 
-[4. Conclusion](#4-conclusion)
+[4. FAQs](#4-faqs)
+
+[5. Conclusion](#5-conclusion)
 
 ### 1. Getting Started
 ---
@@ -87,7 +89,27 @@ Welcome to Musclepedia! This user guide will walk you through the various featur
 
   Implement lifestyle adjustments and self-care practices recommended by health experts to promote long-term muscle health and prevent future injuries.
  
-### 4. Conclusion
+### 4. FAQs
+
+- Can I access Musclepedia on mobile devices?
+  - Answer: Yes, Musclepedia is compatible with mobile devices. You can access it through your mobile web browser.
+
+- I'm experiencing issues logging in. What should I do?
+  - Answer: If you're having trouble logging in, first ensure that you're entering the correct username and password. If the issue persists, click on the "Forgot password" link to try resetting your password.
+
+- Can I track my progress and workouts on Musclepedia?
+  - Answer: Currently, Musclepedia does not have built-in workout tracking features. However, you can manually track your progress by recording your workouts and achievements in a journal or using a separate fitness tracking app.
+
+- Are the exercises provided suitable for beginners?
+  - Answer: Yes, we offer a range of exercises tailored to different fitness levels, including beginners. Each exercise is accompanied with clear instructions that users of all skill levels can follow.
+
+- Can I trust the information I find on Musclepedia?
+  - Answer: While we aim to provide reliable information, it's worth noting that our team doesn't currently include medical professionals. However, we're working on involving qualified medical experts in the future to make our content even more trustworthy. We prioritize using credible sources like peer-reviewed research articles and expert opinions. Still, it's always a good idea for users to consult with healthcare professionals for personalized advice that fits their unique situation.
+
+- Are the resources provided on Musclepedia free to access?
+  - Answer: Yes, all resources and features on Musclepedia are available free of charge to registered users. There are no subscription fees or hidden costs associated with accessing the content.
+
+### 5. Conclusion
  ---
 
 - Clicking on certified muscle groups within Musclepedia unlocks a treasure trove of resources aimed at addressing common muscle ailments and promoting optimal muscle health.
