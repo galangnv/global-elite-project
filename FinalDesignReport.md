@@ -16,7 +16,7 @@ Welcome to Musclepedia! This Final Design Report will walk you through the compl
 
 [6. Final Expo Poster](./Poster.pdf)
 
-[7. Assessments](./PlanningDocs/Self%20Assessments)
+[7. Assessments](./PlanningDocs/Self%20Assessments.md)
 
 [8. Summary of Hours and Justification](./PlanningDocs/SummaryOfHours)
 
