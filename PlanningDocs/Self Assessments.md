@@ -17,3 +17,22 @@ Throughout this process, I learned valuable lessons about effective content stra
 My individual contribution to the project was mainly assisting in implementing the 3D model into our product. This took up most of my time on the technical side. I would say my skills were not very applicable from my initial assessment in the Fall but I was able to learn many new things and build my knowledge in angular. I was able to capitalize on my previous typescript experience and learn how to incorporate three.js.
 
 Through this experience, I was also able to garner new experience using angular and firebase as well. Firebase was entirely new to me and I plan to continue using it in future hobby projects. In the capstone project, one big obstacle for me was converting the innately javascript functionality three.js into typescript code. This was hard to overcome but with the help of my team, I was able to accomplish this feat. A big success was implementing this code but also watching our app come together with login functionalities and exercise advice!
+
+### Christian France
+
+As one of the two Computer Scientists on our team, my role was heavily centered around coding 
+tasks, focusing primarily on the development of our application. I contributed significantly to 
+various aspects, including implementing crucial features like login and registration mechanisms, 
+setting up route guards for security, enabling 3D model loading and interaction, and ensuring 
+smooth logout functionality. Drawing from my prior experience with the technology stack we 
+utilized, I was able to deepen my understanding of each component and incorporate new 
+techniques into our project. However, despite these accomplishments, the pressing challenge of 
+time constraints hindered our ability to fully refine the website, leaving room for improvement in 
+terms of user interaction and overall polish.
+
+Our chosen technology stack consisted of Google Firebase and Angular, which complemented 
+each other seamlessly. Utilizing the @angular/fire package, I was able to streamline the integration 
+of frontend and backend functionalities, particularly in managing user authentication processes. 
+This cohesive integration not only expedited development but also laid a robust foundation for our 
+application's scalability and resilience. Had we managed our time better balancing classes, work, 
+and this project, we could have made a consumer ready product.
