@@ -6,9 +6,9 @@ Welcome to Musclepedia! This Final Design Report will walk you through the compl
 ---
 [1. Project Description](./Project-Description.md)
 
-[2. User Interface Specification](./PlanningDocs/UI)
+[2. User Interface Specification](./PlanningDocs/UI.md)
 
-[3. Test Plan and Results](TestPlan.pdf)
+[3. Test Plan and Results](./TestPlan.pdf)
 
 [4. User Manual and FAQs](./UserManual.md)
 
