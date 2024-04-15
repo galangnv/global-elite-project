@@ -8,7 +8,7 @@ Welcome to Musclepedia! This Final Design Report will walk you through the compl
 
 [2. User Interface Specification](./PlanningDocs/UI)
 
-[3. Test Plan and Results](#3-test-plan-and-results)
+[3. Test Plan and Results](TestPlan.pdf)
 
 [4. User Manual and FAQs](./UserManual.md)
 
@@ -18,9 +18,9 @@ Welcome to Musclepedia! This Final Design Report will walk you through the compl
 
 [7. Assessments](./PlanningDocs/Self%20Assessments.md)
 
-[8. Summary of Hours and Justification](./PlanningDocs/SummaryOfHours)
+[8. Summary of Hours and Justification](./PlanningDocs/SummaryOfHours.md)
 
-[9. Summary of Expenses](./PlanningDocs/SummaryOfExpenses)
+[9. Summary of Expenses](./PlanningDocs/SummaryOfExpenses.md)
 
-[10. Appendix](./PlanningDocs/Appendix)
+[10. Appendix](./PlanningDocs/Appendix.md)
 
