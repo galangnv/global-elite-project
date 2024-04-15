@@ -8,13 +8,13 @@ Welcome to Musclepedia! This Final Design Report will walk you through the compl
 
 [2. User Interface Specification](./PlanningDocs/UI.md)
 
-[3. Test Plan and Results](./TestPlan.pdf)
+[3. Test Plan and Results](./PlanningDocs/TestPlan.pdf)
 
 [4. User Manual and FAQs](./UserManual.md)
 
-[5. Spring Final PPT Presentation](./PresentationSlides.pdf)
+[5. Spring Final PPT Presentation](./PlanningDocs/PresentationSlides.pdf)
 
-[6. Final Expo Poster](./Poster.pdf)
+[6. Final Expo Poster](./PlanningDocs/Poster.pdf)
 
 [7. Assessments](./PlanningDocs/Self%20Assessments.md)
 
